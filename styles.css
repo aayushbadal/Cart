@@ -1,0 +1,130 @@
+/** Normalize in css**/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+img{
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/**End of normalization**/
+
+body{
+    background-color: hsl(13, 31%, 94%);
+    min-height: 100vh;
+    font-family: 'Red Hat Text', serif;
+}
+
+.container{
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.product-section{
+    width:70%;
+}
+
+.section-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: hsl(14, 65%, 9%);
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item{
+    width:30%;
+}
+
+.product-image img{
+    border-radius: 10px;
+}
+
+.product-image {
+    position: relative;
+}
+
+.cart-button{
+    position: absolute;
+    left:7%;
+    bottom: -15px;
+    background-color: #fff;
+    padding:8px 20px;
+    color:hsl(14, 65%, 9%);
+    border-radius: 30px;
+    font-weight:bold;
+    border: 1px solid hsl(12, 20%, 44%);
+
+}
+
+.cart-button > *{
+    vertical-align: middle;
+}
+
+.cart-button img{
+    width:20px;
+}
+
+.product-content{
+    margin-top:15px;
+}
+
+.category{
+    font-size: 14px;
+    color:hsl(12, 20%, 44%);
+}
+
+.title{
+    color:hsl(14, 65%, 9%);
+    font-weight: 600;
+    margin:5px 0;
+}
+
+.price{
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+
+/* My CSS for cart */
+.cart{
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-bottom:30px;
+}
+
+.cart-title{
+    margin-top: 20px;
+    padding:0 20px;
+    color: hsl(14, 86%, 42%);
+}
+
+.my-cart img{
+    width: 100px;
+    margin:30px 120px;
+    margin-bottom: 5px;
+}
+
+.my-cart p{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(12, 20%, 44%);
+    margin-left: 50px;
+}
